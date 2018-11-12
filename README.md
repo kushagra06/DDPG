@@ -1,4 +1,4 @@
-# DDPG
+# Deep Deterministic Policy Gradient
 Pytorch implementation of Deep Deterministic Policy Gradient (Deep reinfor algorithm) on OpenAI gym's inverted pendulum environment. 
 The goal is to swing the pendulum up so it stays upright.  
 
