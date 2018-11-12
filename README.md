@@ -24,7 +24,7 @@ jupyter notebook
 on terminal which launches the jupyter notebook app in a browser. In the notebook dashboard, navigate to find your notebook and run it.
 To train/test the model, execute 
 ```
-python ddpg.py
+python pendulum.py
 ```
 
 ## Organization:
@@ -33,9 +33,9 @@ Some utility functions to get parameters of the gym environment used, e.g. numbe
 * [model.py](https://github.com/kushagra06/SAC/blob/master/model.py): Deep learning network for the agent. 
 * [replay_buffer.py](https://github.com/kushagra06/SAC/blob/master/replay_buffer.py): A replay buffer to store state-actoin transitions
 and then randomly sample from it. 
-* [ddpg.ipynb](https://github.com/kushagra06/SAC/blob/master/softac,ipynb): SDDPG implementation in a jupyter notebook for
+* [pendulum.ipynb](https://github.com/kushagra06/SAC/blob/master/softac,ipynb): SDDPG implementation in a jupyter notebook for
 testing the code and performing experiments. 
-* [ddpg.py](https://github.com/kushagra06/SAC/blob/master/softac.py): Implementation of the algorithm for training and testing on the 
+* [pendulum.py](https://github.com/kushagra06/SAC/blob/master/softac.py): Implementation of the algorithm for training and testing on the 
 task of inverted pendulum (default). 
 
 *The repo is still under construction. To report bugs or add changes, open a pull request.*
