@@ -1,5 +1,5 @@
 # Deep Deterministic Policy Gradient
-Pytorch implementation of Deep Deterministic Policy Gradient (deep reinforcement learning algorithm) on OpenAI gym's inverted pendulum environment. The goal is to swing the pendulum up so it stays upright. (https://gym.openai.com/envs/Pendulum-v0/)
+Pytorch implementation of Deep Deterministic Policy Gradient (https://arxiv.org/pdf/1509.02971.pdf)(deep reinforcement learning algorithm) on OpenAI gym's inverted pendulum environment. The goal is to swing the pendulum up so it stays upright. (https://gym.openai.com/envs/Pendulum-v0/)
 
 ## Prerequisites:
 To run the code, you need to have installed the following libraries/softwares on your system (preferably Ubuntu or any linux distro):
