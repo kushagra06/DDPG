@@ -30,7 +30,7 @@ python pendulum.py
 * [src/gym_utils.py](https://github.com/kushagra06/DDPG/tree/master/src/gym_utils.py): 
 Some utility functions to get parameters of the gym environment used, e.g. number of states and actions.
 * [src/model.py](https://github.com/kushagra06/DDPG/blob/master/src/model.py): Deep learning network for the agent. 
-* [src/replay_buffer.py](https://github.com/kushagra06/DDPG/blob/master/src/replay_buffer.py): A replay buffer to store state-actoin transitions and then randomly sample from it.
+* [src/replay_buffer.py](https://github.com/kushagra06/DDPG/blob/master/src/replay_buffer.py): A replay buffer to store state-action transitions and then randomly sample from it.
 * [src/stochastic_process.py](https://github.com/kushagra06/DDPG/blob/master/src/stochastic_process.py): Function simulating Ornstein Ohlenbeck (OU) process, added as noise to the selected action. 
 * [pendulum.ipynb](https://github.com/kushagra06/DDPG/blob/master/pendulum.ipynb): DDPG implementation in a jupyter notebook for
 testing the code and performing experiments. 
