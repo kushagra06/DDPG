@@ -5,7 +5,7 @@ TensorFlow/PyTorch implementation of Deep Deterministic Policy Gradient (https:/
 To run the code, you need to have installed the following libraries/softwares on your system (preferably Ubuntu or any linux distro):
 * python: Required version >= 3.5. Also, install pip using `sudo apt install python3-pip`. (if your package manager is apt)
 * TensorFlow: Recommeded to install via pip. https://www.tensorflow.org/install/pip
-* pyTorch: Recommended to install via pip. https://pytorch.org/
+* PyTorch: Recommended to install via pip. https://pytorch.org/
 * numpy: `pip install numpy`
 * jupyter: `pip install jupyter`
 * matplotlib: `pip install matplotlib`
